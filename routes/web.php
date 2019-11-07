@@ -11,6 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'Apps\MenuHomePageController@landingpage');
+
+Route::get('/test_barcode', function () {
+    return view('test_barcode');
 });
+
+Route::group(['middleware' => ['pemilik_toko']], function () {
+    
+});
+Route::group(['middleware' => ['pegawai_toko']], function () {
+    
+});
+Route::group(['middleware' => ['admin ']], function () {
+    
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

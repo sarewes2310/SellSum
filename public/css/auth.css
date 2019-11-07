@@ -1,0 +1,38 @@
+.logo{
+    padding: 8%;
+}
+.logo-item{
+    width: 100%;
+}
+.size-input{
+    padding-bottom: 2%;
+}
+.btn-reg-log{
+    width: 100%;
+}
+.py-41{
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+}
+.line-tgl{
+    background-color: #e1e1e1;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.line-disp{
+    display: table-cell;
+}
+.isi-produk{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.isi-produk-item{
+    margin: 0;
+}
+.nama{
+    font-style: bold;
+}
+.harga{
+    font-weight: 300;
+    color: red;
+}

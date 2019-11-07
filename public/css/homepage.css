@@ -1,0 +1,38 @@
+.logo{
+    width: 120px;
+}
+body{
+    background-color: white;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1b1f3b !important;
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+.footer-btn{
+    width: 100%;
+}
+.fitur{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+.item-fitur-gambar{
+    width: 40%;
+}
+.header-prom{
+    min-height: 500px;
+}
+.header-foto{
+    width: 100%;
+}
+.headline{
+    margin: auto;
+}
