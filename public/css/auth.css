@@ -36,3 +36,31 @@
     font-weight: 300;
     color: red;
 }
+.margin-ato{
+    margin: auto;
+}
+.margin-bot{
+    margin-bottom: 2%;
+}
+.atas-bawah-ato{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.img-tab-cell{
+    width: 26%;
+    margin:auto
+}
+.img-tab-cell-item{
+    width: 100%;
+}
+.isi-tab-cell{
+    width: 44%;
+    margin:auto;
+}
+.btn-tab-cell{
+    margin:auto;
+    align-items: center;
+}
+.fab{
+    padding: 4%;
+}

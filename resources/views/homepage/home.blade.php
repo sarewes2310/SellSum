@@ -24,12 +24,12 @@
             <p>Pemakaian barcode untuk memudahkan dalam bertransaksi</p>
         </div>
         <div class="col justify-content-center text-center item-fitur">
-            <img src="{{ asset('asset_icon/notes.png') }}" class="item-fitur-gambar">
-            <p>Pemakaian barcode untuk memudahkan dalam bertransaksi</p>
+            <img src="{{ asset('asset_icon/pembukuan.png') }}" class="item-fitur-gambar">
+            <p>Scan barcode dan pembukuan otomatis</p>
         </div>
         <div class="col justify-content-center text-center item-fitur">
-            <img src="{{ asset('asset_icon/settings.png') }}" class="item-fitur-gambar">
-            <p>Pemakaian barcode untuk memudahkan dalam bertransaksi</p>
+            <img src="{{ asset('asset_icon/laporan.png') }}" class="item-fitur-gambar">
+            <p>Penyajian laporan dan pembukaan dari UKM</p>
         </div>
     </div>
     <div class="col text-center">
@@ -37,17 +37,23 @@
         </div>
         <div class="row fitur">
             <div class="col justify-content-center text-center item-fitur">
-                <img src="{{ asset('asset_icon/barcode.png') }}" class="item-fitur-gambar">
-                <p>Pemakaian barcode untuk memudahkan dalam bertransaksi</p>
+                <img src="{{ asset('asset_icon/cara-01.png') }}" class="item-fitur-gambar">
+                <p>Daftarkan UKM dan produk Anda</p>
             </div>
             <div class="col justify-content-center text-center item-fitur">
-                <img src="{{ asset('asset_icon/notes.png') }}" class="item-fitur-gambar">
-                <p>Pemakaian barcode untuk memudahkan dalam bertransaksi</p>
+                <img src="{{ asset('asset_icon/cara-02.png') }}" class="item-fitur-gambar">
+                <p>Dapatkan barcode secara gratis</p>
+            </div>
+        </div>
+        <div class="row fitur">
+            <div class="col justify-content-center text-center item-fitur">
+                <img src="{{ asset('asset_icon/cara-03.png') }}" class="item-fitur-gambar">
+                <p>Scan barcode ketika bertransaksi</p>
             </div>
             <div class="col justify-content-center text-center item-fitur">
-                <img src="{{ asset('asset_icon/settings.png') }}" class="item-fitur-gambar">
-                <p>Pemakaian barcode untuk memudahkan dalam bertransaksi</p>
-            </div>
+                    <img src="{{ asset('asset_icon/cara-04.png') }}" class="item-fitur-gambar">
+                    <p>Pembukuan dan laporan otomatis setelah scan transaksi</p>
+                </div>
         </div>
 </div>
 @endsection
