@@ -1,4 +1,4 @@
-function addCart()
+function addCart(data)
 {
-    
+    $.ajax    
 }
